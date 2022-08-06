@@ -1,12 +1,5 @@
-body{
-    margin: 0 15%;
-}
-.container{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
-}
-#header{
+
+.navbar .navbar-brand{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -14,32 +7,6 @@ body{
     line-height: 42px;
     text-decoration: underline;
     color: #070f18;
-    margin: 40px 0;
-}
-#menu{
-    text-align: right;
-    margin: 49px 0 0 0;
-}
-#menu ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#menu li{
-    display: inline-block;
-    margin-left: 20px;
-    text-decoration: none;
-    margin: 0 0 0 20px;
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #070f18;
-}
-a{
-    color: #070f18;
-    text-decoration: none;
 }
 p.gray{
     font-family: 'Poppins', sans-serif;
@@ -66,25 +33,13 @@ p.gray{
     color: #fff;
     padding: 10px 25px;
 }
-#headerImg{
-    margin-left: 42px;
+#headerCta a{
+    text-decoration: none;
 }
 #headerImg img{
     width: 100%;
 }
-.headerLogo{
-    text-align: center;
-}
-#clients{
-    margin: 50px 0;
-}
-#headerClientText{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #181818;
-}
+
 h2.red{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -118,13 +73,10 @@ h1.black{
 #contactImg img{
     width: 100%;
 }
-#contactForm{
-    margin-left: 75px;
-    text-align: left;
+#contact, #portfolio, #services, #clients, #headerCta, .portfolioImg{
+    padding: 40px 0;
 }
-#contact{
-    margin-top: 100px;
-}
+
 #contactForm input{
     background: #f5f6fb;
     border-radius: 50px;
@@ -150,12 +102,3 @@ h1.black{
     color: #fff;
     border: none;
 }
-#portfolioTitle{
-    margin-top: 150px;
-}
-.portfolioImg{
-    padding: 20px;
-}
-.portfolioImg img{
-    width: 100%;
-} 
