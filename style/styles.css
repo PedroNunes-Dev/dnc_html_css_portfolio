@@ -1,4 +1,6 @@
-
+section{
+    padding:40px 0;
+}
 .navbar .navbar-brand{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -36,9 +38,6 @@ p.gray{
 #headerCta a{
     text-decoration: none;
 }
-#headerImg img{
-    width: 100%;
-}
 
 h2.red{
     font-family: 'Poppins', sans-serif;
@@ -69,12 +68,6 @@ h1.black{
     text-align: center;
     margin-top: 0;
     color: #181818;
-}
-#contactImg img{
-    width: 100%;
-}
-#contact, #portfolio, #services, #clients, #headerCta, .portfolioImg{
-    padding: 40px 0;
 }
 
 #contactForm input{
